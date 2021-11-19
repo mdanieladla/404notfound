@@ -42,4 +42,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Daniela Darnea](https://{mdanieladla.github.io/portfolio/})
+- Website [Daniela Darnea](https://mdanieladla.github.io/portfolio/)
