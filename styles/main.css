@@ -1,0 +1,111 @@
+/*FONTS 
+font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace;
+*/
+
+.header{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+    margin: 20px 218px 64px 24px;
+}
+
+.main__container{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scarecrow{
+    width: 250px;
+    height: 238px;
+    overflow: hidden;
+}
+
+.description__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+   
+}
+
+.title{
+    margin: 60px 1px 30px 24px;
+    margin-top: 60px;
+    margin-right: 24px;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitle{
+    margin: 0 23px 66px 24px;
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+}
+
+.button{
+    width: 216px;
+    height: 68px;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    color: white;
+    background-color: #333333;
+    margin-left: 24px;
+}
+
+.footer{
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+/* =================== MEDIA QUERIES ================== */
+@media all and (min-width: 1024px) {
+
+    .header{
+        margin: 40px 0 0 50px;
+    }
+
+    .main__container{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .scarecrow{
+        width: 539px;
+        height: 447px;
+        overflow: visible;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+
+    .title{
+        line-height: 75px;
+        margin-right: 240px;
+    }
+    
+    .subtitle{
+        margin-right: 360px;
+        line-height: 25px;
+    }
+    
+    
+    .footer{
+        position: fixed;
+        right: 45%;
+        text-align: center;
+    }
+    
+}
